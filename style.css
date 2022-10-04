@@ -11,6 +11,12 @@ html{
 body{
   background: white;
 }
+
+.container{
+  display: flex;
+  justify-content: end;
+}
+
 ::selection{
   color: #fff;
   background: #3ea0e2;
