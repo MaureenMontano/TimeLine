@@ -58,80 +58,14 @@ body{
   content: "";
   height: 15px;
   width: 15px;
-  background: #e7f1ff;
+  background-color: gray;
   top: 28px;
   z-index: -1;
   transform: rotate(45deg);
 }
+
 .row-1 section::before{
   right: -7px;
-}
-
-/*Pestañas*/
-.wrapper .row .card-1::before{
-  position: absolute;
-  content: "";
-  height: 15px;
-  width: 15px;
-  background: #5B7DB1;
-  top: 28px;
-  z-index: -1;
-  transform: rotate(45deg);
-}
-
-.wrapper .row .card-2::before{
-  position: absolute;
-  content: "";
-  height: 15px;
-  width: 15px;
-  background:  lightslategrey;
-  top: 28px;
-  z-index: -1;
-  transform: rotate(45deg);
-}
-
-.wrapper .row .card-3::before{
-  position: absolute;
-  content: "";
-  height: 15px;
-  width: 15px;
-  background: lightslategrey;
-  top: 28px;
-  z-index: -1;
-  transform: rotate(45deg);
-}
-
-.wrapper .row .card-4::before{
-  position: absolute;
-  content: "";
-  height: 15px;
-  width: 15px;
-  background: lightslategrey;
-  top: 28px;
-  z-index: -1;
-  transform: rotate(45deg);
-}
-
-.wrapper .row .card-5::before{
-  position: absolute;
-  content: "";
-  height: 15px;
-  width: 15px;
-  background: lightslategrey;
-  top: 28px;
-  z-index: -1;
-  transform: rotate(45deg);
-}
-
-.wrapper .row .card-6::before{
-  position: absolute;
-  content: "";
-  height: 15px;
-  width: 15px;
-  background: orange;
-  top: 28px;
-  z-index: -1;
-  transform: rotate(45deg);
 }
 
 .row-2 section::before{
@@ -180,6 +114,17 @@ body{
 }
 .row section p{
   margin: 10px 0 17px 0;
+}
+
+/*
+  COLORS
+------------------------------------*/
+.color-blue {
+  background-color: #5B7DB1;
+}
+
+.color-grey {
+  background-color: lightgray;
 }
 
 @media(max-width: 790px){
